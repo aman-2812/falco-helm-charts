@@ -127,7 +127,7 @@ healthChecks:
 
 # -- Attach the Falco process to a tty inside the container. Needed to flush Falco logs as soon as they are emitted.
 # Set it to "true" when you need the Falco logs to be immediately displayed.
-tty: false
+tty: true
 
 #########################
 # Scenario requirements #
